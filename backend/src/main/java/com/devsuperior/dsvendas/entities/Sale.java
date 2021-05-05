@@ -10,8 +10,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import org.hibernate.annotations.ManyToAny;
-
 @Entity
 @Table(name="tb_sales")
 public class Sale {
