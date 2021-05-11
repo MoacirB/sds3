@@ -1,1 +1,1 @@
-export const BASE_URL = process.env.REACT_APP_BACKEND;
+export const BASE_URL = "https://sds3-moacir.herokuapp.com" ?? "localhost:8080";
