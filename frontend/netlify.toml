@@ -1,7 +1,0 @@
-[build]
-base = "."
-command = "npm run build"
-publish = "./build/"
-
-[build.environment]
-REACT_APP_BACKEND_URL = "https://sds3-moacir.herokuapp.com"
